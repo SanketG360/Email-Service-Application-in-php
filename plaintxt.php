@@ -2,7 +2,7 @@
 $to = $_POST['name'];
 $subj = $_POST['sub'];
 $msg = $_POST['msg'];
-$header= "From :cornerj127@gmail.com";
+$header= "From :<enter your email-id>";
  $result = mail($to,$subj,$msg,$header);
  if($result ==  True)
   {
