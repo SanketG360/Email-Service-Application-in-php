@@ -1,2 +1,2 @@
 # Email-Service-Application-in-php
-we developed email service web based application using php 
+We develop simple email service web based application using php 
