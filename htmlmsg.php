@@ -2,7 +2,7 @@
 $to = $_POST['name'];
 $subj = $_POST['sub'];
 $msg = $_POST['msg'];
-$header = "From :<enter email-id>";
+$header = "From :<enter your email-id>";
 $header = "MIME-Version:1.0\r\n";
 $header = "Content-Type:text/html;charset =ISO-8859-1\r\n";
 $body_msg = "<html>
