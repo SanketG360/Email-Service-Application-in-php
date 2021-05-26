@@ -14,7 +14,7 @@ $email_message = '<h2>Contact Request Submitted</h2>
                     <p><b>Message:</b><br/>'.$message.'</p>';
 $email_message.="Please find the attachment";
 $semi_rand = md5(uniqid(time()));
-$headers = "From :cornerj127@gmail.com";
+$headers = "From :<enter-email-id>;
 $mime_boundary = "==Multipart_Boundary_x{$semi_rand}x";
  
     $headers .= "\nMIME-Version: 1.0\n" .
