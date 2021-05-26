@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<script>
+			function myFunction()
+			 {
+			  location.replace("msg.html");
+			}
+
+			function myRead()
+			 {
+			   location.replace("A.html");
+			}
+
+			function myC()
+			 {
+			  location.replace("attachment.html");
+			}
+		</script>
+		<style>
+			.btn1
+			{
+				background-color:#73AD21;
+				border-radius:  25px;
+				border: 2px solid rgb(251, 255, 0);
+				width: auto;
+				margin-left: 300px;
+				margin-top: 200px;
+				height: 30px;
+				box-shadow:0 5px 10px -2px rgba(0,0,0,0.25);
+			}
+			.btn2
+			{
+				background-color:#73AD21;
+				border-radius:  25px;
+				border: 2px solid rgb(217, 255, 0);
+				width: auto;
+				margin-left: 300px;
+				margin-top: 200px;
+				height: 30px;
+				box-shadow:0 5px 10px -2px rgba(0,0,0,0.25);
+			}
+			.btn3
+			{
+				background-color:#73AD21;
+				border-radius:  25px;
+				border: 2px solid rgb(238, 255, 0);
+				width: auto;
+				margin-left: 300px;
+				margin-top: 200px;
+				height: 30px;
+				box-shadow:0 5px 10px -2px rgba(0,0,0,0.25);
+			}
+			.t{
+				
+                box-shadow:0 2px 4px -1px rgba(0,0,0,0.25);
+			}
+		</style>
+	</head>
+	<body>
+		
+		<center>
+		
+		<h2 class="t" style = "color:red;">EMAIL SERVICE</h2>
+		</center>
+		<form>
+			<button class="btn1" style="color:white;" type="button" onclick="myFunction()">Plain Text Mail </button>
+			<button class="btn2" style="color:white;" type="button" onclick="myRead()">Sending Html Email</button>
+			<button class="btn3" style="color:white;" type="button" onclick="myC()">Sending Email With Attachment</button>
+		</form>
+	</body>
+</html>

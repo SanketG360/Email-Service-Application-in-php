@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<style>	
+			.btn3
+			{
+				background-color:orange;
+				border-radius:  25px;
+				border: 2px solid rgb(238, 255, 0);
+				width: 100px;
+				height: 30px;
+				box-shadow:0 5px 10px -2px rgba(0,0,0,0.25);
+			}
+			.t{
+				
+              			  box-shadow:0 2px 4px -1px rgba(0,0,0,0.25);
+			}
+		</style>
+	</head>
+<body>	 
+	      <center>
+		<h2 class="t" style = "color:red;">EMAIL SERVICE</h2>
+	      </center>
+	      <center>
+       		<h2 style = "color:green;">Plain Text Email</h2>
+              </center>
+		<br>
+                <br>
+                <br>
+    	      		 <section style="margin-left:550px">
+             		 <form style="width: 35%;position: relative;top:1%;left:2% ;" action="plaintxt.php" method="POST">
+                         <fieldset class="fieldset">
+              		      <legend style="color:red;border: 2px solid rgb(238, 255, 0);">Email Service</legend>
+                              <label class="fieldset" for="name">To:</label><br>  
+            	              <input class="fieldset" type="text" " name="name"><br>
+                              <label class="fieldset" for="pass">Subject:</label><br>  
+                              <input class="fieldset" type="text"  name="sub"><br>  
+                              <label class="fieldset" for="subject">Message:</label><br>
+                              <textarea class="fieldset"  name="msg"  style="height:100px; width:100%">
+                              </textarea>
+                              <br>
+		              <br>
+			     <center>
+                             <input type="submit" class="btn3" style="color: white;" value="SUBMIT" class="submit">
+			     </center>
+			
+                        </fieldset>
+                        </form>
+			</section>
+	     
+</body>
+</html
